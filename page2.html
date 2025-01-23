@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Cutie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Voldemort&display=swap" rel="stylesheet">
+  <style>
+    /* Universal Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      background: linear-gradient(135deg, #2c2a1e, #1a1400); /* Dark magical theme */
+      color: #ffd700; /* Golden text */
+      font-family: 'Cinzel', serif; /* Elegant font for a magical look */
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      flex-direction: column;
+    }
+
+    /* Main Container */
+    .container {
+      text-align: center;
+      animation: flicker 2s infinite alternate; /* Adds a glowing magical effect */
+    }
+
+    /* Number Styling */
+    .number {
+      font-size: 10rem; /* Makes the "18" large */
+      font-family: 'Cinzel', serif;
+      text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #d4af37, 0 0 40px #d4af37;
+    }
+
+    /* Message Styling */
+    .message {
+      font-size: 2.5rem; /* Smaller than the number */
+      font-family: 'Cinzel', serif;
+      text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 15px #d4af37, 0 0 20px #d4af37;
+    }
+
+    /* Link Styling */
+    .link {
+      margin-top: 20px;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #ffd700;
+      border: 2px solid #ffd700;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+      text-shadow: 0 0 5px #ffd700, 0 0 10px #d4af37;
+    }
+
+    .link:hover {
+      background: #ffd700;
+      color: #1a1400;
+      text-shadow: none;
+    }
+
+    /* Flicker Animation */
+    @keyframes flicker {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.8;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1 class="number">18</h1>
+      <p class="message">Happy Birthday Cutie</p>
+    </div>
+    <!-- Add clickable link -->
+    <a class="link" href="file:///C:/Users/Siddhi%20Tiwari/.vscode/cprogramming/rolly.html/page3.html" target="_blank">Click on me</a>
+  </div>
+</body>
+</html>

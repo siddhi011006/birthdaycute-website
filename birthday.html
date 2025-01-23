@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Neon Website</title>
+  <style>
+    /* General Body Styling */
+    body {
+      background-color: #000000; /* Pure black background */
+      color: white; /* Default text color */
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* Neon Button Styling */
+    .neon-button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 20px;
+      color: #fff; /* White text */
+      background-color: transparent; /* Transparent background */
+      border: 3px solid #9b59b6; /* Neon purple border */
+      border-radius: 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* Glow Effect on Hover */
+    .neon-button:hover {
+      box-shadow: 0 0 20px #9b59b6, 0 0 40px #9b59b6, 0 0 60px #9b59b6;
+      transform: scale(1.1);
+    }
+
+    /* Button Glow Animation */
+    .neon-button::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 10px;
+      border: 3px solid #9b59b6;
+      opacity: 0.6;
+      filter: blur(8px);
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <!-- Add your desired website link in the href attribute -->
+  <a href="file:///C:/Users/Siddhi%20Tiwari/.vscode/cprogramming/rolly.html/page2.html" class="neon-button" target="_blank">Oi cutie!! Click here</a>
+</body>
+</html>
